@@ -5,7 +5,7 @@
 
 
 ### Description
-This project strives to give an analysis of the data collected for bikeshare in various cities.  We use pandas to pull the data, manipulate it, and give meaningful results about popular times for travel as well, user data, and a few other things.
+This project strives to give an analysis of the data collected for bikeshare in various cities.  We use pandas to pull the data, manipulate it, and give meaningful results about popular times for travel as well, user data, and a few other things.  The maian point of this project is to work on a git repo using files from a past project.
 
 ### Files used
 Files used for this analysis were three excel docs with data from NYC, Chicago, and Washington.  On top of these data files, there was a python script that was used to manipulate this data.
