@@ -136,9 +136,9 @@ def user_stats(df):
     start_time = time.time()
 
     # Display counts of user types
-    user_types = df.groupby(['User Type']).count()
-    user_types['count'] = user_types['Unnamed: 0']
-    print('Count for each type of user: \n' + str(user_types['count']) + '\n\n')
+    user_counts = df.groupby(['User Type']).count()
+    user_counts['count'] = user_counts['Unnamed: 0']
+    print('Count for each type of user: \n' + str(user_counts['count']) + '\n\n')
 
     # Display counts of gender
     gender_counts = df.groupby(['Gender']).count()
