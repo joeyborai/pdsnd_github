@@ -1,15 +1,15 @@
 ### Date created
-Include the date you created this project and README file.
+11/8/2019
 
-### Project Title
-Replace the Project Title
+### Bikeshare Data analysis
+
 
 ### Description
-Describe what your project is about and what it does
+This project strives to give an analysis of the data collected for bikeshare in various cities.  We use pandas to pull the data, manipulate it, and give meaningful results about popular times for travel as well, user data, and a few other things.
 
 ### Files used
-Include the files used
+Files used for this analysis were three excel docs with data from NYC, Chicago, and Washington.  On top of these data files, there was a python script that was used to manipulate this data.
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+The inspiration for this project was the prompt given to me by udacity.com.  On top of this, the pandas documentation came in handy for the writing of this code.
 
