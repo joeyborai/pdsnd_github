@@ -101,8 +101,7 @@ def station_stats(df):
     print('Most popular end station was: ' + str(end_count.index[0]))
 
     # display most frequent combination of start station and end station trip
-    combo_stations = df.groupby(['Start Station', 'End Station'])
-    combo_counts = combo_stations.count()
+    combo_counts = df.groupby(['Start Station', 'End Station']).count()
     combo_counts['count'] = combo_counts['Unnamed: 0']
 
     print('Most popular start/end station combo was: ' + str(combo_counts['count'].idxmax()))
